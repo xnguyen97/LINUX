@@ -1,0 +1,15 @@
+touch: tạo file trống
+cat > file: tạo và viết file. ctrl d thoát
+cat: xem nd file
+more: xem nd file 
+less: xem nd với trang riêng. q thoát
+wc: xuất số lượng dòng:từ:ký tự
+ls link | sort -d: hiện danh sách file theo thứ tự từ a->z
+ls link | sort -r: hiện danh sách file theo thứ tự từ z->a
+ls link | wc -l: số thự mục
+cat link > link ts : copy file
+head -n link: hiển thị n dòng từ trên xuống
+tail-n link: hiển thị n dòng từ dưới lên
+
+
+dùng file.sh lưu lệnh phức tập để khi cần chỉ cần l gọi file.shệnh
