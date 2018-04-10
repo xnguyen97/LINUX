@@ -12,4 +12,4 @@ head -n link: hiển thị n dòng từ trên xuống
 tail-n link: hiển thị n dòng từ dưới lên
 
 
-dùng file.sh lưu lệnh phức tập để khi cần chỉ cần l gọi file.shệnh
+dùng file.sh lưu lệnh phức tập để khi cần chỉ cần lệnh gọi file.sh
