@@ -1,0 +1,44 @@
+touch: tạo file trống
+cat > file: tạo và viết file. ctrl d thoát
+cat: xem nd file
+more: xem nd file 
+less: xem nd với trang riêng. q thoát
+wc: xuất số lượng dòng:từ:ký tự
+ls link | sort -d: hiện danh sách file theo thứ tự từ a->z
+ls link | sort -r: hiện danh sách file theo thứ tự từ z->a
+ls link | wc -l: số thự mục
+cat link > link ts : copy file
+head -n link: hiển thị n dòng từ trên xuống
+tail-n link: hiển thị n dòng từ dưới lên
+sad -n 4,15 link: hiển thị từ dòng 4 đến dòng 15.
+
+
+dùng file.sh lưu lệnh phức tập để khi cần chỉ cần lệnh gọi file.sh
+---------------------------------------------------------------------------------------------
+pwd xuất đường dẫn của folder hiện tại
+pwd -P in thư mục vật lý, không có bất kỳ liên kết tượng trưng
+ls hiện tất cả file trong thư mục 
+ls -a hiện tất cả file và thư mục trong thư mục và file trong thư mục c
+ls -i hiện tất cả file và thư mục trong thư mục kèm theo index number của mỗi file
+ls -l hiện tất cả file và thư mục trong thư mục kèm theo các chỉ số như quyền file, ngày tháng năm giờ tạo file,...
+
+-Thưc hiện hiện thị kết xuất từng lệnh  trên theo từng trang màn hình:
+ls | less
+ls -a | less
+ls -i | less
+ls -l | less
+-Màu các tập tin
+blue là thư mục 
+white là file text
+green là file shell
+cyan là đường dẫn tới file text
+
+
+date hiển thị thứ, ngày, tháng, năm, giờ, phút, giây và múi giờ
+who hiển thị ai log
+su -<người dùng đích> 	giao diện dòng lệnh sẽ sử dụng môi trường người dùng của tài khoản đích.
+cal hiển thị lịch hiện tại
+cal- -m .. : hiển dị lịch tháng ..
+cal -j ....: hiển thị lịch năm theo ngày trong năm
+cal -y : hiển thị lịch năm hiện tại
+
